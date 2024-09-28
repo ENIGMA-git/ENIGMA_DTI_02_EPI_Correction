@@ -1,3 +1,5 @@
+This protocol has been moved [here](https://github.com/ENIGMA-git/ENIGMA-DTI-Preprocessing-Guidelines/tree/master/last_resort_epi_corr)
+
 # Correct for EPI induced susceptibility artifacts — this is particularly an issue at higher magnetic fields.
 * If you have two opposing b0s and a sufficient amount of diffusion directions obtained, you may use FSL’s TOPUPand EDDY for distortion correction.
 * If a fieldmap has been collected along with your data, FSL’s FUGUE tool may help compensate for the distortions.
